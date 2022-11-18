@@ -71,6 +71,12 @@ spring:
     proxy-target-class: true
   jpa:
     open-in-view: false
+  activiti:
+    check-process-definitions: false
+    #启用作业执行器
+    async-executor-activate: false
+    #启用异步执行器
+    job-executor-activate: false
   #配置freemarker
   freemarker:
     # 设置模板后缀名

@@ -59,6 +59,8 @@
 		<!-- Log4j2爆雷漏洞 -->
 		<log4j2.version>2.17.0</log4j2.version>
 		<logback.version>1.2.9</logback.version>
+
+		<activiti.version>5.22.0</activiti.version>
 	</properties>
 
 	<modules>
@@ -381,7 +383,7 @@
 		</resources>
 	</build>
 
-	<distributionManagement>
+	<!--<distributionManagement>
 		<repository>
 			<id>jeecg</id>
 			<name>jeecg Repository</name>
@@ -392,7 +394,7 @@
 			<name>jeecg Snapshot Repository</name>
 			<url>http://maven.jeecg.com:8090/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement>-->
 	
     <!-- 环境 -->
     <profiles>
